@@ -20,7 +20,7 @@ class App < Sinatra::Base
     @num.times do
       arr << @phrase
     end
-    arr
+    "#{arr}"
   end
 
 end
