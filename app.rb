@@ -13,7 +13,7 @@ class App < Sinatra::Base
     "#{(@num**2).to_s}"
   end
 
-  get '/say' do
+  get '/say/:number/:phrase' do
     
   end
 
