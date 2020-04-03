@@ -10,7 +10,7 @@ class App < Sinatra::Base
 
   get '/square/:num' do
     @num = params[:num].to_i
-    "#{@num.class}"
+    "#{(@num**2).to_s}"
   end
 
 end
